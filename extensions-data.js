@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <img src="${extension.logo}" alt="${extension.name} logo">
             <h3>${extension.name}</h3>
             <p>${extension.description}</p>
-            <button>${extension.isActive ? 'Disable' : 'Enable'}</button>
+            <input type="checkbox">${extension.isActive}</input>
         `;
 
         extensionsList.appendChild(extensionItem);
